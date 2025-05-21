@@ -258,19 +258,12 @@
         }
         
         .hero-header{ 
+            background-color: #0A0A0A;
             padding-top: 10% !important;
             z-index: 0;
             height: 85vh !important;
         }
-       .hero-header::before{
-        content: '';
-        position: absolute;
-        top: 0; left: 0; right: 0; bottom: 0;
-        background: linear-gradient(135deg, #ae2012 50%, #0A0A0A 50%);
-        filter: blur(3px); 
-        z-index: -1; 
-      
-       }
+
           
         .hero-header .breadcrumb-item+.breadcrumb-item::before {
             color: var(--light);
